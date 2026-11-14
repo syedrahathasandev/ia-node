@@ -1,0 +1,11 @@
+
+
+const { PORT, MAIL_FROM, RESEND_API_KEY, CLIENT_URL, JWT_EMAIL_VERIFICATION_SECRET } = process.env;
+export const Config = {
+  PORT,
+  MAIL_FROM,
+  RESEND_API_KEY,
+  JWT_EMAIL_VERIFICATION_SECRET,
+  CLIENT_URL,
+};
+Object.freeze(Config);
